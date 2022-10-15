@@ -1,0 +1,169 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	background-color: #f6f6f6;
+}
+
+.outer {
+	display: table;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
+  
+.middle {
+	display: table-cell;
+	vertical-align: middle;
+}
+  
+.inner {
+	margin-left: auto;
+	margin-right: auto;
+	width: 738px;
+}
+
+article {
+    float: left;
+    width: 300px;
+	margin-left: 39px;
+}
+
+aside {
+	border-left: 1px #c3c3c3 solid;
+	float: right;
+	margin-top: -15px;
+	padding-left: 48px;
+	height: 70px;
+}
+
+#logo {
+	margin-left: auto;
+	margin-right: auto;
+	background: url('../_img/profile_photo_A.png');
+	background-repeat: no-repeat;
+	height: 404px;
+	width: 402px;
+	padding-bottom: 0px;
+	display: block;
+}
+
+#logo:hover, #logo:active {
+	background: url('../_img/profile_photo_B.png');
+	background-repeat: no-repeat;
+	height: 404px;
+	width: 402px;
+}
+
+h1 {
+	color: #7d7d7d;
+	padding-bottom: 15px;
+	font-size: 32.3px;
+}
+
+#description {
+	color: #7d7d7d;
+	line-height: 70px;
+	float: right;
+}
+
+#navsocial li {
+	margin: 0;
+    padding: 0;
+    list-style: none;
+    float: left;
+}
+
+#navsocial li, #navsocial a {
+    height: 40px;
+    display: block;
+    color: transparent;
+}
+
+/* sprites - no hover */
+
+#youtube {
+	left: 40px;
+	width: 40px;
+	background: url('../_svg/social_sprites.svg') 0 -39px;
+}
+
+#twitter {
+	left: 0px;
+	width: 40px;
+	background: url('../_svg/social_sprites.svg') -41px -40px;
+}
+
+#facebook {
+	left: 0px;
+	width: 40px;
+	background: url('../_svg/social_sprites.svg') -81px -40px;
+}
+
+#github {
+	left: 0px;
+	width: 40px;
+	background: url('../_svg/social_sprites.svg') -121px -40px;
+}
+
+#linkedin {
+	left: 0px;
+	width: 40px;
+	background: url('../_svg/social_sprites.svg') -161px -40px;
+}
+
+#adobe {
+	left: 0px;
+	width: 40px;
+	background: url('../_svg/social_sprites.svg') -201px -40px;
+}
+
+#logopond {
+	left: 0px;
+	width: 40px;
+	background: url('../_svg/social_sprites.svg') -241px -39px;
+}
+
+/* sprites - hover */
+
+#youtube a:hover {
+	left: 0px;
+	width: 40px;
+	background: url('../_svg/social_sprites.svg') 0px 0;
+}
+
+#twitter a:hover {
+	left: 0px;
+	width: 40px;
+	background: url('../_svg/social_sprites.svg') -41px 0;
+}
+
+#facebook a:hover {
+	left: 0px;
+	width: 40px;
+	background: url('../_svg/social_sprites.svg') -81px 0;
+}
+
+#github a:hover {
+	left: 0px;
+	width: 40px;
+	background: url('../_svg/social_sprites.svg') -121px 0;
+}
+
+#linkedin a:hover {
+	left: 0px;
+	width: 40px;
+	background: url('../_svg/social_sprites.svg') -161px 0;
+}
+
+#adobe a:hover {
+	left: 0px;
+	width: 40px;
+	background: url('../_svg/social_sprites.svg') -201px 0;
+}
+
+#logopond a:hover {
+	left: 0px;
+	width: 40px;
+	background: url('../_svg/social_sprites.svg') -241px 0;
+}
